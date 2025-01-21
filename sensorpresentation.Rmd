@@ -1,9 +1,8 @@
 ---
-title: "Presentation Ninja"
-subtitle: "⚔<br/>with xaringan"
-author: "Yihui Xie"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+title: "Landsat-8"
+author: "Jin Wen Kee"
+institute: "CASA, UCL"
+date: "2025/01/21"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -11,45 +10,40 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      css: [default, metropolis, metropolis-fonts]
 ---
 
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
-
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
-
-1111
-
-Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
-
----
 class: center, middle
 
-# xaringan
+# Sensor
 
-### /ʃaː.'riŋ.ɡan/
-
----
-class: inverse, center, middle
-
-# Get Started
+### /ˈsɛnsə/
+### a device which detects or measures a physical property and records, indicates, or otherwise responds to it.
 
 ---
+# Landsat-8
 
-# Hello World
+* Landsat-8 is a Earth Observation Satellite launched by NASA/USGS in 2013
 
-Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
+* The satellite carries two instruments: 
 
-```{r eval=FALSE, tidy=FALSE}
-remotes::install_github("yihui/xaringan")
+  1. Operational Land Imager (OLI)
+  
+  2. Thermal Infrared Sensor (TIRS) 
+  
+* The OLI measures in the visible, near infrared, and shortwave infrared wavelengths in 9 spectral bands (15-30m resolution) while TIRS measures and surface temperature in two thermal bands (100m resolution)
+
+```{r,echo=FALSE, out.width="45%", fig.align="left", fig.cap="Landsat-8 in orbit"}
+knitr::include_graphics("sensorpresentation_files/img/landsat82.png")
 ```
+*Source: [NASA](https://science.nasa.gov/mission/landsat-8-ldcm/)*
 
---
+---
 
-You are recommended to use the [RStudio IDE](https://www.rstudio.com/products/rstudio/), but you do not have to.
+# Landsat-8 Products 
 
-- Create a new R Markdown document from the menu `File -> New File -> R Markdown -> From Template -> Ninja Presentation`;<sup>1</sup>
+
+
 
 --
 
