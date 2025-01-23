@@ -33,14 +33,40 @@ class: center, middle
   
 * The OLI measures in the visible, near infrared, and shortwave infrared wavelengths in 9 spectral bands (15-30m resolution) while TIRS measures and surface temperature in two thermal bands (100m resolution)
 
-```{r,echo=FALSE, out.width="45%", fig.align="left", fig.cap="Landsat-8 in orbit"}
+```{r,echo=FALSE, out.width="45%", fig.align="left"}
 knitr::include_graphics("sensorpresentation_files/img/landsat82.png")
 ```
-*Source: [NASA](https://science.nasa.gov/mission/landsat-8-ldcm/)*
+*Landsat-8 in Orbit. Source: [NASA](https://science.nasa.gov/mission/landsat-8-ldcm/)*
 
 ---
 
 # Landsat-8 Products 
 
+* There are multiple data products available for download for Landsat-8: 
+  
+  1. Level 1 products - radiometrically and geometrically corrected data to remove any distortion from the sensor, satellite and the Earth. Cloud masks are also provided in this product.
+  
+  2. Level 2 products - generated from Level 1 products through algorithms such as LaSRC to create products like surface reflectance and surface temperature.
+  
+  3. Analysis Ready Data (ARD) - pre-processed data for immediate use in scientific analysis such as time series and machine learning; these are obtained from Level 1 products. 
+  
+* Landsat-8 also comprises of Collection 1 and 2, with Collection 2 being more recent (2020) and having an improved accuracy and better atmospheric and radiometric calibration.
 
 ---
+
+# Applications 
+
+* There are wide range of application of the Landsat-8 data; some more common than others
+  
+  * For example, Surface Temperature, a Level 2 product, is specifically generated as a geophysical parameter which is useful in global energy balance studies and modelling. It is also useful in studying urban heat island, wildfires, and even phenological processes. 
+  
+  * Schroder et. al (2016) developed an active fire detection algorithm using Landsat-8 data which provided enhanced coverage and resolution for fire management over a global region.
+  
+  * Guha et. al (2018) on the other hand, examined the relationship between Land Surface Temperature with Normalised Difference Vegetation Index and Normalised Difference Built-up Index through linear regression models. These indices are formed by transforming different bands found in Landsat-8 data. 
+
+---
+
+# Reflections 
+
+
+
