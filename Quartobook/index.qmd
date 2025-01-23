@@ -8,8 +8,6 @@ If we go even further back, I do have some background in more technical fields s
 
 My interest in the built environment thus extends to the concept of liveability - how do we measure such a subjective term which can incorporate both technical (e.g temperature, shade, amenities) and design aspects (sense of safety, perceptions and emotions from facades).
 
-I hope you enjoy reading and looking through the diary, because I know I did.
-
 Acknowledgements:
 
 This site is built using [Quarto](https://quarto.org/).
