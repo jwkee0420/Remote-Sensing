@@ -1,7 +1,9 @@
 ---
 title: "The essential tools: Xaringan & Quarto"
-output: html_document
-date: "2025-01-27"
+output:
+  pdf: default
+  html: default
+prefer-html: true
 ---
 
 ```{r, echo = FALSE, out.width='40%'}
