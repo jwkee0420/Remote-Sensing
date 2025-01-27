@@ -66,7 +66,106 @@ knitr::include_graphics("sensorpresentation_files/img/landsat82.png")
 
 ---
 
+# Applications II
+The tabs below illustrate some of the applications, methods orgaanised by general topics. Of course, the lists are non-exhaustive - there a wide range of applications of Landsat-8 data which this summary cannot capture. 
+
+
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+
+.panelset[
+.panel[.panel-name[Topic of Interest]
+
+ * **Climate Change**: energy balance, water/carbon cycle, flood risk etc
+ 
+ * **Environment**: soil health, phenology, vegetation composition etc 
+ 
+ * **Human activities:** urbanisation, deforestation, industralisation, heat island etc 
+ 
+ * **Natural disasters:** earthquakes, tsunamis, forest fires etc 
+ 
+ * **Minerals:** mineral detection 
+ 
+ 
+]
+
+.panel[.panel-name[Methods used]
+
+ * Cloud computing 
+ 
+ * Supervised/Unsupervised classification 
+ 
+ * Artificial Neural Networks / Deep learning 
+ 
+ * Clustering 
+ 
+ * Time Series 
+ 
+ 
+]
+
+.panel[.panel-name[Mindmap]
+
+<div class="row">
+  <div class="col-left" style="width: 70%; float: left;">
+    ```{r, echo=FALSE, out.width="80%"}
+    knitr::include_graphics("Quartobook/images/Mindmap.png")
+    ```
+  </div>
+  <div class="col-right" style="width: 30%; float: right; padding-left: 20px;">
+    Scientific network mapping by <a href="https://www.mdpi.com/2072-4292/12/18/3062" target="_blank">Chaves et. al (2020)</a> highlights the evolution of keywords used by remote sensing papers that utilised Landsat-8 data. 
+    
+  </div>
+</div>
+
+
+
+
+]
+]
+
+---
+
 # Reflections 
 
+I decided to split my reflection across three topics this week based on the content that I learnt: 
+
+.panelset[
+.panel[.panel-name[Landsat-8]
+
+ * While satellite imagery is incredibly useful, different sensors suffers from different disadvantages whether it is poor resolution or lack of continuous data. Researchers often have to compensate using algorithms or combine them with other datasets. Landsat-8 data are thus usually not used in silo in a project. 
+ 
+ * There is so much work that goes behind capturing satellite imagery - I spend some time looking through the [Landsat-8 Data User Handbook](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/LSDS-1574_L8_Data_Users_Handbook-v5.0.pdf) (over 100 pages!!) and I was overwhelmed by the different calibrations and product descriptions but I also learnt that image capturing is not always accurate. 
+ 
+ * Known issues like stray light produces lunar ghosts which require further characterisation and correction (e.g  0.29 W/m2/sr/µm for Band 10)
+ 
+]
+
+.panel[.panel-name[Xaringan]
+
+ * While my first initial thought of using Rmarkdown to code a presentation was "Eh?!", I found using Xaringan more straightforward than I thought 
+ 
+ * The ease of running code chunks *in-situ* to generate tables, graphs and plots makes it really refreshing to use rather than screenshotting plots from RStudio and placing them in a powerpoint presentation 
+ 
+ * The extra tools provided by XaringanExtra is really useful as well - including this panelset function that I used to organise this reflection 
+ 
+ 
+]
+
+.panel[.panel-name[Quarto]
+
+ * I had prior experience from CASA0013 using Quarto to render PDF documents but I learnt a new way of exporting HTMLs and hosting them on github to produce a website. This opened new opportunities for me to share my work with others 
+ 
+ * The practice of using Quarto also helped me build confidence using this software, which I believe can help me organise and format my upcoming dissertation. 
+ 
+ * After reading up a bit on Quarto, I came to realise how important open-source data and software are especially in spatial data science. From the data sources like Landsat-8 to writing reports on Quarto or presenting on Xaringan, open source projects and packages help enable collaborations, builds on reproducibility in scientific investigations.  
 
 
+
+]
+]
+
+
+---
